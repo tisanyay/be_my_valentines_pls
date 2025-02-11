@@ -1,19 +1,15 @@
 body {
     background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+    display: flex;
+    justify-content: center;
 }
-  
+
 #main {
     position: absolute;
     text-align: center;
-    top: 20%;
-    left: 37%;
 }
   
 button {
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
     height: 4rem;
     width: 10rem;
     font-size: 1.5rem;
@@ -21,5 +17,13 @@ button {
     border: none;
     box-shadow: 1px 1px 5px black;
     background-color: white;
+    cursor: pointer;
+}
+
+#no-btn {
+    position: absolute;
+    top: 120%;
+    left: 120%;
+    transform: translate(-50%, -50%);
 }
   
