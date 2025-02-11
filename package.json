@@ -1,9 +1,12 @@
 {
+  "homepage": "https://tisanyay.github.io/be_my_valentines_pls",
   "name": "valentines",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "animejs": "^3.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
